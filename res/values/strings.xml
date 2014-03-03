@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WB</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_over_screen">GameOverScreen</string>
+    <string name="short_game">Shortest Word Game</string>
+    <string name="long_game">Longest Word Game</string>
+    <string name="friends">Friend List</string>
+	<string name="letterA">a</string>
+	<string name="letterB">b</string>
+	<string name="letterC">c</string>
+	<string name="letterD">d</string>
+	<string name="letterE">e</string>
+	<string name="letterF">f</string>
+	<string name="letterG">g</string>
+	<string name="letterH">h</string>
+	<string name="letterI">i</string>
+	<string name="letterJ">j</string>
+	<string name="letterK">k</string>
+	<string name="letterL">l</string>
+	<string name="letterM">m</string>
+	<string name="letterN">n</string>
+	<string name="letterO">o</string>
+	<string name="letterP">p</string>
+	<string name="letterQ">q</string>
+	<string name="letterR">r</string>
+	<string name="letterS">s</string>
+	<string name="letterT">t</string>
+	<string name="letterU">u</string>
+	<string name="letterV">v</string>
+	<string name="letterW">w</string>
+	<string name="letterX">x</string>
+	<string name="letterY">y</string>
+	<string name="letterZ">z</string>
+	<string name="build">Build</string>
+	<string name="challenge">Challenge</string>
+	<string name="again">Play Again</string>
+	<string name="quit">Main Menu</string>
+	<string name="selfName">Name</string>
+	<string name="shortest">Shortest Word</string>
+	<string name="longest">Longest Word</string>
+	<string name="friend">Friends</string>
+	<string name="add">+</string>
+	<string name="enter">Enter Name</string>
+	<string name="back">{-</string>
+	<string name="newPlayer">New Player</string>
+	<string name="newUser">Change Player</string>
+	<string name="challenged">You have been challenged!</string>
+	<string name="choose">Pick a name</string>
+	<string name="welcome">Welcome to WordBuilder</string>
+	<string name="next">Setup</string>
+</resources>

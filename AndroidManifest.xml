@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+	<uses-permission android:name="android.permission.INTERNET" /> 
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.example.wb.Initialize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.wb.MainMenu"
+            android:label="main_menu"
+            android:screenOrientation = "portrait" />
+        <activity
+            android:name="com.example.wb.ShortGame"
+            android:label="@string/short_game"
+            android:screenOrientation = "portrait" />
+        <activity
+            android:name="com.example.wb.LongGame"
+            android:label="@string/long_game"
+            android:screenOrientation = "portrait" />
+        <activity
+            android:name="com.example.wb.GameOver"
+            android:label="@string/title_activity_game_over_screen"
+            android:screenOrientation = "portrait" />
+        <activity
+            android:name="com.example.wb.Friends"
+            android:label="@string/friends"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
